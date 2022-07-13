@@ -1,0 +1,12 @@
+# 30nodes_trophic_level
+
+EcoBuilder
+
+1.在30EcoBuilder_trophic_level.R中用EcoBuilder30nodes_matrix.RData将所有矩阵转换为一个list，保存为30trophic_level.txt用于python计算营养级
+用python计算得到的30trophic_level.txt计算每一个食物网中物种的营养级，保存为30EcoBuilder_trophic_list.RData，绘制每一个食物网中营养级的分布
+
+
+realworld
+
+1.在realworld_individual_trophic.R中用realworld.matrix.RData将所有矩阵转换为一个list，保存为30trophic_level.txt用于trophic_level.txt计算营养级
+用python计算得到的trophic_level2.txt计算每一个食物网中物种的营养级，保存为realworld_trophic_list.RData，绘制每一个食物网中营养级的分布
